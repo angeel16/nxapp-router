@@ -1,8 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
+
 function page() {
     return (
-        <h1><Link href="/">Decoracion</Link></h1>
+
+        <div className='pagTienda'>
+            <h1 className='tienda'><b>Tienda/decoracion</b></h1>
+            <p className='electronica'><Link href='/tienda/electronica'>Electrónica</Link></p>
+            <p className='decoracion'><Link href='/tienda/decoracion'>Decoración</Link></p>
+            <p className='mobiliario'><Link href='/tienda/mobiliario'>Mobiliario</Link></p>
+            <p className='libros'><Link href='/tienda/libros'>Libros</Link></p>
+        </div>
     )
 }
 

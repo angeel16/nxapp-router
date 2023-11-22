@@ -1,13 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+
 function page() {
     return (
-        <div className='pagtienda'>
-            <h1>tienda</h1>
-            <p><Link href="/electronica">electronica</Link></p>
-            <p><Link href="/decoracion">decoracion</Link></p>
-            <p><Link href="/mobiliario">mobiliario</Link></p>
-            <p><Link href="/libros">libros</Link></p>
+
+        <div className='pagTienda'>
+            <h1 className='tienda'><b>Tienda</b></h1>
+            <p className='electronica'><Link href='/tienda/electronica'>Electrónica</Link></p>
+            <p className='decoracion'><Link href='/tienda/decoracion'>Decoración</Link></p>
+            <p className='mobiliario'><Link href='/tienda/mobiliario'>Mobiliario</Link></p>
+            <p className='libros'><Link href='/tienda/libros'>Libros</Link></p>
         </div>
     )
 }
