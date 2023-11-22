@@ -6,7 +6,7 @@ function page() {
 
     <div className='pagTienda'>
       <h1 className='tienda'><b>Blog/tercerBlog</b></h1>
-      <p ><Link>Blog 1</Link></p>
+      <p className='electronica'><Link href='/blog/primerBlog'>Blog 1</Link></p>
       <p ><Link href='/blog/segundoBlog'>Blog 2</Link></p>
       <p><Link href='/blog/tercerBlog'>Blog 3</Link></p>
       <p ><Link href='/blog/cuartoBlog'>Blog 4</Link></p>
